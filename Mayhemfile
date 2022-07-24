@@ -1,6 +1,6 @@
 project: mido
-target: fuzz
+target: fuzz_midi_parser
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_midi_parser.py
       libfuzzer: true
